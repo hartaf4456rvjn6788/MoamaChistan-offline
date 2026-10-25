@@ -1,0 +1,12 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent" android:layout_height="match_parent" android:background="#10102A">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center" android:padding="24dp">
+  <ImageView android:layout_width="110dp" android:layout_height="110dp" android:src="@drawable/ic_puzzle" android:contentDescription="لوگوی معما"/>
+  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🧩 معما چیستان" android:textColor="#FFC928" android:textSize="32sp" android:textStyle="bold" android:layout_marginTop="12dp"/>
+  <TextView android:id="@+id/tvCoins" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🪙 سکه: ۵۰" android:textColor="#FFFFFF" android:textSize="18sp" android:layout_margin="18dp"/>
+  <Button android:id="@+id/btnPlay" android:layout_width="match_parent" android:layout_height="58dp" android:text="شروع بازی" android:textSize="18sp" android:background="@drawable/bg_button" android:textColor="#FFFFFF"/>
+  <Button android:id="@+id/btnShop" android:layout_width="match_parent" android:layout_height="58dp" android:text="فروشگاه سکه" android:layout_marginTop="12dp"/>
+  <Button android:id="@+id/btnSettings" android:layout_width="match_parent" android:layout_height="58dp" android:text="تنظیمات" android:layout_marginTop="12dp"/>
+  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="با فکر، هوش و خلاقیت جواب را پیدا کن!" android:textColor="#BDBDEB" android:textSize="16sp" android:layout_marginTop="26dp"/>
+ </LinearLayout>
+</ScrollView>

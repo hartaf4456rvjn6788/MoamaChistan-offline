@@ -1,0 +1,9 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#10102A">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="22dp" android:gravity="center">
+  <TextView android:id="@+id/tvGameCoins" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFC928" android:textSize="18sp" android:text="سکه: ۵۰"/>
+  <TextView android:id="@+id/tvQuestion" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/bg_panel" android:padding="24dp" android:layout_marginTop="30dp" android:textColor="#FFFFFF" android:textSize="22sp" android:gravity="center" android:minHeight="140dp"/>
+  <EditText android:id="@+id/etAnswer" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="پاسخ را بنویس..." android:textColor="#FFFFFF" android:textColorHint="#BDBDEB" android:singleLine="true" android:layout_marginTop="24dp" android:padding="16dp"/>
+  <Button android:id="@+id/btnSubmit" android:layout_width="match_parent" android:layout_height="56dp" android:text="ثبت پاسخ" android:layout_marginTop="12dp"/>
+  <Button android:id="@+id/btnHint" android:layout_width="match_parent" android:layout_height="56dp" android:text="💡 راهنما (۲۰ سکه)" android:layout_marginTop="8dp"/>
+ </LinearLayout>
+</ScrollView>
